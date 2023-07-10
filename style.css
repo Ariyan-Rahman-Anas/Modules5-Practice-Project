@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ===========--- header section design starts from here ---=============  */
+header{
+    padding: 22rem 0;
+    height: 100vh;
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+    color: white;
+    text-align: right;
+    width: 40%;
+    margin: -12rem 40rem;
+    margin: -12rem 50%;
+}
+.info h1{
+    font-size: 3.5rem;
+    padding: 0 0 2rem 0;
+}
+.btn{
+    padding: .55rem 1.1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+a{
+    padding: .55rem .01rem;
+    text-decoration: none;
+}
+/* ===========--- header section design ends here ---=============  */
+
+
+/* ===========--- failure section design starts from here ---=============  */
+#failure-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 5rem auto;
+}
+.header{
+    font-size: 2rem;
+}
+.details p{
+    color: gray;
+    margin: 1.5rem 0;
+}
+.details ul li{
+    list-style-type: square;
+    list-style-position: inside;
+    margin: .8rem 0;
+}
+.banner{
+    width: 30rem;
+}
+.banner img{
+    width: 100%;
+}
+/* ===========--- failure section design ends here ---=============  */
+
+/* ===========--- plan section design starts from here ---=============  */
+.plan-sec{
+    margin: 12rem auto;
+    width: 80%;
+    text-align: center;
+}
+#plans, #future{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* ===========--- plan section design ends here ---=============  */
+
+
+/* ===========--- watch section design starts from here ---=============  */
+#watch-sec{
+    padding: 4rem;
+    width: 80%;
+    margin: 8rem auto;
+    background-image: url(./images/watch.png);
+    background: linear-gradient(to left, rgba(54, 60, 234, 0.0), rgba(0, 85, 255, 0.7)), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: .3rem;
+    color: white;
+    font-weight: 900;
+}
+/* ===========--- watch section design ends here ---=============  */
+
+
+/* ===========--- future section design starts from here ---=============  */
+.future{
+    border: 3px solid;
+    background-color: black;
+}
+#future, a{
+    color: white !important;
+    width: 80%;
+    margin: 5rem auto;
+}
+#future ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+#future p, ul{
+    margin: 1rem 0;
+}
+.youtube-icon{
+    margin: 0 1rem;
+}
+
+.right-sec input{
+    padding: .5rem;
+    border: 0;
+    outline:  0;
+    border-radius: .2rem;
+    margin: 2rem 0 0 0;
+    width: 18rem;
+}
+/* ===========--- future section design ends here ---=============  */
+
+
+/* ===========--- and the footer is here ---=============  */
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0 0 .2rem 0;
+}
